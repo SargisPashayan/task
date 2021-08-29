@@ -113,6 +113,28 @@ nav .fa{
     transition: 0.5s;
 }
 
+.item-col div{
+    background: black;
+    color: #fff;
+    top: 80%;
+    left: 0;
+    height: 25px;
+    width: 80px;
+    position: relative;
+    text-align: center;
+}
+
+.item-col-long div{
+    background: black;
+    color: #fff;
+    top: 88%;
+    left: 0;
+    height: 25px;
+    width: 80px;
+    position: relative;
+    text-align: center;
+}
+
 .item-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
@@ -133,5 +155,35 @@ h3{
 @media(max-width: 700px){
     .container{
         flex-direction: column;
+    }
+}
+
+/*----- Footer -----*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 700;
+}
+
+.footer h2{
+    font-size: 12px;
+    color: darkgray;
+}
+
+.icons .fa{
+    color: darkgray;
+    margin: 50px 5px;
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+@media(max-width: 700px){
+    .footer h2{
+        font-size: 24px;
+    }
+    .footer h3{
+        font-size: 15px;
     }
 }
