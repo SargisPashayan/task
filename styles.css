@@ -54,7 +54,7 @@ nav .fa{
     .nav-links{
         position: fixed;
         background: #f44336;
-        height: 50vh;
+        height: 40vh;
         width: 200px;
         top: 0;
         right: -200px;
@@ -72,4 +72,66 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     } 
+}
+
+/*----- Blog Items -----*/
+
+.items{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    flex-direction: column;
+    width: 380px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-col{
+    height: 200;
+    background: #dcdcdc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.item-col-long{
+    height: 300;
+    background: #dcdcdc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.item-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.item-col-long:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    margin-bottom: 25%;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 700px){
+    .container{
+        flex-direction: column;
+    }
 }
